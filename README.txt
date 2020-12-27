@@ -1,4 +1,4 @@
-Instructions to Participants
+Information to Participants
 ====================================
 
 1. This repository contains the Day Wise Practice Material of the Sessions conducted by Jai Mangal Singh, Founder and CEO @ Redtron Education Service LLP

@@ -1,0 +1,205 @@
+save diary
+5+6
+
+ans =
+
+    11
+
+
+a=6
+
+a =
+
+     6
+
+clc
+clear
+clc
+a=12
+
+a =
+
+    12
+
+clc
+a=12;
+print(a)
+{Error using checkArgsForHandleToPrint
+Handle input argument contains nonhandle values.
+
+Error in checkArgsForHandleToPrint
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print>LocalCreatePrintJob', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\graphics\printing\print.m', 101)" style="font-weight:bold">print>LocalCreatePrintJob</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\graphics\printing\print.m',101,0)">line 101</a>)
+handles = checkArgsForHandleToPrint(0, varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('print', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\graphics\printing\print.m', 38)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\graphics\printing\print.m',38,0)">line 38</a>)
+[pj, inputargs] = LocalCreatePrintJob(varargin{:});
+} 
+printf(a)
+{Check for missing argument or incorrect argument data type in call to
+function 'printf'.
+} 
+fprintf(a)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fprintf')" style="font-weight:bold">fprintf</a>
+No format character vector.
+} 
+fprint(a)
+{Unrecognized function or variable 'fprint'.
+} 
+fprint(" %d", a)
+{Unrecognized function or variable 'fprint'.
+} 
+fprintf(" %d", a)
+ 12
+display(a)
+
+a =
+
+    12
+
+display([a, 'is the number'])
+is the number
+display([num2str(a), 'is the number'])
+12is the number
+display([num2str(a), ' is the number'])
+12 is the number
+clc
+pi
+
+ans =
+
+    3.1416
+
+format bank
+pi
+
+ans =
+
+          3.14
+
+format short
+a= 5+6i
+
+a =
+
+   5.0000 + 6.0000i
+
+a^3+a^2+6*a +9
+
+ans =
+
+  -3.8700e+02 + 3.3000e+02i
+
+clc
+a= 56;
+b= 63;
+c=a/b
+
+c =
+
+    0.8889
+
+d=a\b
+
+d =
+
+    1.1250
+
+int8(300)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+300-256
+
+ans =
+
+    44
+
+int8(300)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+2^8
+
+ans =
+
+   256
+
+2^7-300
+
+ans =
+
+  -172
+
+int8(256)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+int8(255)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+int8(100)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   100
+
+int8(200)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+2^7
+
+ans =
+
+   128
+
+int8(128)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+int8(127)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+clc
+clear
+clc
+a=45
+
+a =
+
+    45
+
+diary

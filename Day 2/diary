@@ -1,0 +1,2517 @@
+clc
+a= 45
+
+a =
+
+    45
+
+b= 2.59
+
+b =
+
+    2.5900
+
+c= a+b
+
+c =
+
+   47.5900
+
+name = " Redtron"
+
+name = 
+
+    " Redtron"
+
+des= ' CEO'
+
+des =
+
+    ' CEO'
+
+desc= " Education"
+
+desc = 
+
+    " Education"
+
+tt = name + desc
+
+tt = 
+
+    " Redtron Education"
+
+home
+
+a = 45;
+b=0.5;
+z= (a^2 + b)*b
+
+z =
+
+   1.0128e+03
+
+i
+
+ans =
+
+   0.0000 + 1.0000i
+
+s= 4+9i
+
+s =
+
+   4.0000 + 9.0000i
+
+s^2
+
+ans =
+
+ -65.0000 +72.0000i
+
+clc
+i=5;
+a=4+5*i
+
+a =
+
+    29
+
+c= 4+5i
+
+c =
+
+   4.0000 + 5.0000i
+
+b= 56
+
+b =
+
+    56
+
+b=100
+
+b =
+
+   100
+
+b
+
+b =
+
+   100
+
+h= " string type"
+
+h = 
+
+    " string type"
+
+b+h
+
+ans = 
+
+    "100 string type"
+
+b
+
+b =
+
+   100
+
+c=b+h
+
+c = 
+
+    "100 string type"
+
+c= b*h
+{Operator '*' is not supported for operands of type 'string'.
+} 
+who
+
+Your variables are:
+
+a     ans   b     c     des   desc  h     i     name  s     tt    z     
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x1                 8  double              
+  ans       1x1               166  string              
+  b         1x1                 8  double              
+  c         1x1               166  string              
+  des       1x4                 8  char                
+  desc      1x1               166  string              
+  h         1x1               166  string              
+  i         1x1                 8  double              
+  name      1x1               166  string              
+  s         1x1                16  double    complex   
+  tt        1x1               182  string              
+  z         1x1                 8  double              
+
+tt
+
+tt = 
+
+    " Redtron Education"
+
+clc
+clear
+tt
+{Unrecognized function or variable 'tt'.
+} 
+clc
+age = 19;
+score = 98;
+display([ " your Score is ",int2str(age)])
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    " your Score is "    "19"
+
+display([ ' your Score is ',int2str(age)])
+ your Score is 19
+display([ ' your Score is ',int2str(age),' and your age is',score])
+ your Score is 19 and your age isb
+display([ ' your Score is ',int2str(age),' and your age is',mat2str(score)])
+ your Score is 19 and your age is98
+display([ ' your Score is ',int2str(age),' and your age is ',mat2str(age)])
+ your Score is 19 and your age is 19
+
+d= 19.25
+
+d =
+
+   19.2500
+
+int2str(d)
+
+ans =
+
+    '19'
+
+d= 19.75
+
+d =
+
+   19.7500
+
+int2str(d)
+
+ans =
+
+    '20'
+
+mat2str(d)
+
+ans =
+
+    '19.75'
+
+d= " Redtron"
+
+d = 
+
+    " Redtron"
+
+s=' Education'
+
+s =
+
+    ' Education'
+
+s(1)
+
+ans =
+
+    ' '
+
+d(1)
+
+ans = 
+
+    " Redtron"
+
+s='Education'
+
+s =
+
+    'Education'
+
+d= "Redtron"
+
+d = 
+
+    "Redtron"
+
+s(4)
+
+ans =
+
+    'c'
+
+home
+h = 4.556;
+fprintf("%f.1",h)
+4.556000.1fprintf("%f1.1",h)
+4.5560001.1clc
+
+
+
+
+
+
+
+
+
+h
+
+h =
+
+    4.5560
+
+fprintf("%.1f",h)
+4.6 
+fprintf("%.1f/n",h)
+4.6/nfprintf("%.1f /n",h)
+4.6 /n
+fprintf("%.1f \n",h)
+4.6 
+clc
+exp(4)
+
+ans =
+
+   54.5982
+
+factorial(5)
+
+ans =
+
+   120
+
+format long
+pi
+
+ans =
+
+   3.141592653589793
+
+format short
+pi
+
+ans =
+
+    3.1416
+
+format bank
+pi
+
+ans =
+
+          3.14
+
+a= 5+9i
+
+a =
+
+          5.00
+
+format short
+a
+
+a =
+
+   5.0000 + 9.0000i
+
+clc
+clear
+clc
+a = 45
+
+a =
+
+    45
+
+ g = " Redtron"
+
+g = 
+
+    " Redtron"
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x1                 8  double              
+  g         1x1               166  string              
+
+z= a^5+9*a+10
+
+z =
+
+   184528540
+
+c= 9*g
+{Operator '*' is not supported for operands of type 'string'.
+} 
+y= "Company Name : "
+
+y = 
+
+    "Company Name : "
+
+gg = y + g
+
+gg = 
+
+    "Company Name :  Redtron"
+
+jg = y + z
+
+jg = 
+
+    "Company Name : 184528540"
+
+clc
+clear
+a = 45
+
+a =
+
+    45
+
+b=60 ;
+c = b/a;
+c = b/a
+
+c =
+
+    1.3333
+
+format bank
+c
+
+c =
+
+          1.33
+
+format short
+clear
+c
+{Unrecognized function or variable 'c'.
+} 
+clc
+a= 5+6i
+
+a =
+
+   5.0000 + 6.0000i
+
+s = a^3 +2*a +9
+
+s =
+
+  -3.9600e+02 + 2.4600e+02i
+
+g= 45
+
+g =
+
+    45
+
+format bank
+g
+
+g =
+
+         45.00
+
+a
+
+a =
+
+          5.00
+
+s
+
+s =
+
+       -396.00
+
+format short
+s
+
+s =
+
+  -3.9600e+02 + 2.4600e+02i
+
+a
+
+a =
+
+   5.0000 + 6.0000i
+
+clc
+a= 45
+
+a =
+
+    45
+
+A= 105;
+s= a+A
+
+s =
+
+   150
+
+A=200;
+s= a+A
+
+s =
+
+   245
+
+a= 10
+
+a =
+
+    10
+
+a=25
+
+a =
+
+    25
+
+a
+
+a =
+
+    25
+
+clc
+s =' Redtron'
+
+s =
+
+    ' Redtron'
+
+b= " Education"
+
+b = 
+
+    " Education"
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  A         1x1                 8  double              
+  a         1x1                 8  double              
+  b         1x1               166  string              
+  g         1x1                 8  double              
+  s         1x8                16  char                
+
+s(3)
+
+ans =
+
+    'e'
+
+s(2)
+
+ans =
+
+    'R'
+
+clc
+age= 19;
+marks = 90;
+message1 = " You scored : "
+
+message1 = 
+
+    " You scored : "
+
+message_2 = " Your age is : "
+
+message_2 = 
+
+    " Your age is : "
+
+display([ message, age, message_2, marks ])
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('message')" style="font-weight:bold">message</a>
+Invalid constructor signature.
+} 
+display([ message, age])
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('message')" style="font-weight:bold">message</a>
+Invalid constructor signature.
+} 
+display([ message1, age])
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    " You scored : "    "19"
+
+display([ message1, age, message_2, marks ])
+  1×4 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> array
+
+    " You scored : "    "19"    " Your age is : "    "90"
+
+message1 = ' You scored : '
+
+message1 =
+
+    ' You scored : '
+
+message_2 = ' Your age is : '
+
+message_2 =
+
+    ' Your age is : '
+
+display([ message1, age, message_2, marks ])
+ You scored :  Your age is : Z
+home
+display([ message1, num2str(age), message_2, num2str(marks) ])
+ You scored : 19 Your age is : 90
+display([ message1, num2str(marks), message_2, num2str(age) ])
+ You scored : 90 Your age is : 19
+home
+f= 25.56
+
+f =
+
+   25.5600
+
+num2str(f)
+
+ans =
+
+    '25.56'
+
+mat2str(f)
+
+ans =
+
+    '25.56'
+
+25.56
+
+ans =
+
+   25.5600
+
+int2str(f)
+
+ans =
+
+    '26'
+
+
+clc
+a= 45.26
+
+a =
+
+   45.2600
+
+int2str(a)
+
+ans =
+
+    '45'
+
+300
+
+ans =
+
+   300
+
+a=300
+
+a =
+
+   300
+
+int8(a)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+a=45
+
+a =
+
+    45
+
+int8(a)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   45
+
+home
+int16(300)
+
+ans =
+
+  <a href="matlab:helpPopup int16" style="font-weight:bold">int16</a>
+
+   300
+
+a= 345.45989
+
+a =
+
+  345.4599
+
+int8(a)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+int16(a)
+
+ans =
+
+  <a href="matlab:helpPopup int16" style="font-weight:bold">int16</a>
+
+   345
+
+num2str( int16(a))
+
+ans =
+
+    '345'
+
+home
+a= 45
+
+a =
+
+    45
+
+s= a^3
+
+s =
+
+       91125
+
+int2str(s)
+
+ans =
+
+    '91125'
+
+j= " name"
+
+j = 
+
+    " name"
+
+home
+clc
+a= 45 
+
+a =
+
+    45
+
+a= 45 ;
+clc
+clear
+clc
+a=46;
+b=0.5;
+c=(b^2)*a
+
+c =
+
+   11.5000
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x1                 8  double              
+  b         1x1                 8  double              
+  c         1x1                 8  double              
+
+z= sqrt(a)+b
+
+z =
+
+    7.2823
+
+z
+
+z =
+
+    7.2823
+
+z=2*z;
+clc
+a={5}
+
+a =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[5]}
+
+a={5,2}
+
+a =
+
+  1×2 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[5]}    {[2]}
+
+a(1)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[5]}
+
+a(2)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[2]}
+
+a[2]
+ a[2]
+  ↑
+{Error: Invalid expression. When calling a function or indexing a variable, use
+parentheses. Otherwise, check for mismatched delimiters.
+} 
+a{2}
+
+ans =
+
+     2
+
+a{2}*a{1}
+
+ans =
+
+    10
+
+a(1)*a(2)
+{Operator '*' is not supported for operands of type 'cell'.
+} 
+clc
+clear
+clc
+a = 45;
+name = "Alpha"
+
+name = 
+
+    "Alpha"
+
+h = ' tom'
+
+h =
+
+    ' tom'
+
+h(2)
+
+ans =
+
+    't'
+
+h(4)
+
+ans =
+
+    'm'
+
+name(2)
+{Index exceeds the number of array elements (1).
+
+'name' appears to be both a function and a variable. If this is unintentional,
+use 'clear name' to remove the variable 'name' from the workspace.
+} 
+name(1)
+
+ans = 
+
+    "Alpha"
+
+i
+
+ans =
+
+   0.0000 + 1.0000i
+
+s= 4+5i
+
+s =
+
+   4.0000 + 5.0000i
+
+d= s^2
+
+d =
+
+  -9.0000 +40.0000i
+
+h= 4+2j
+
+h =
+
+   4.0000 + 2.0000i
+
+a
+
+a =
+
+    45
+
+res = h^2 + 3*s +a
+
+res =
+
+  69.0000 +31.0000i
+
+clc
+a
+
+a =
+
+    45
+
+s
+
+s =
+
+   4.0000 + 5.0000i
+
+clear
+clc
+a = {4,5}
+
+a =
+
+  1×2 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[4]}    {[5]}
+
+a(1)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> array
+
+    {[4]}
+
+a(1)*a(2)
+{Operator '*' is not supported for operands of type 'cell'.
+} 
+a{1}
+
+ans =
+
+     4
+
+a{2}
+
+ans =
+
+     5
+
+a{1} * a{2}
+
+ans =
+
+    20
+
+name ="JAI"
+
+name = 
+
+    "JAI"
+
+des= "CEO"
+
+des = 
+
+    "CEO"
+
+d = name + des
+
+d = 
+
+    "JAICEO"
+
+d = name+ ",  " + des
+
+d = 
+
+    "JAI,  CEO"
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  a         1x2               224  cell                
+  ans       1x1                 8  double              
+  d         1x1               166  string              
+  des       1x1               150  string              
+  name      1x1               150  string              
+
+clc
+a = 4.56
+
+a =
+
+    4.5600
+
+int8(a)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   5
+
+d= 4.45
+
+d =
+
+    4.4500
+
+int8(d)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   4
+
+clc
+a = 300.25
+
+a =
+
+  300.2500
+
+int8(a)
+
+ans =
+
+  <a href="matlab:helpPopup int8" style="font-weight:bold">int8</a>
+
+   127
+
+int16(a)
+
+ans =
+
+  <a href="matlab:helpPopup int16" style="font-weight:bold">int16</a>
+
+   300
+
+2^15
+
+ans =
+
+       32768
+
+num2str(ans)
+
+ans =
+
+    '32768'
+
+a= 14
+
+a =
+
+    14
+
+int2str(a)
+
+ans =
+
+    '14'
+
+b= 4.5;
+home
+int2str(b)
+
+ans =
+
+    '5'
+
+mat2str(b)
+
+ans =
+
+    '4.5'
+
+num2str(a)
+
+ans =
+
+    '14'
+
+num2str(b)
+
+ans =
+
+    '4.5'
+
+clc
+clear
+clc
+x= 56;
+y= 89;
+mult = x*y
+
+mult =
+
+        4984
+
+div = x/y
+
+div =
+
+    0.6292
+
+bdiv = x\y
+
+bdiv =
+
+    1.5893
+
+z= exp(x/y) 
+
+z =
+
+    1.8761
+
+p = 10
+
+p =
+
+    10
+
+log(p)
+
+ans =
+
+    2.3026
+
+exp(1)
+
+ans =
+
+    2.7183
+
+log10(p)
+
+ans =
+
+     1
+
+exp2(2)
+{Unrecognized function or variable 'exp2'.
+} 
+exp(2)
+
+ans =
+
+    7.3891
+
+a= sin(30)
+
+a =
+
+   -0.9880
+
+sind(30)
+
+ans =
+
+    0.5000
+
+d= 5+6i
+
+d =
+
+   5.0000 + 6.0000i
+
+arg(d)
+{Unrecognized function or variable 'arg'.
+} 
+real(d)
+
+ans =
+
+     5
+
+img(d)
+{Unrecognized function or variable 'img'.
+} 
+imag(d)
+
+ans =
+
+     6
+
+angle(d)
+
+ans =
+
+    0.8761
+
+g= 2+2i
+
+g =
+
+   2.0000 + 2.0000i
+
+angle(g)
+
+ans =
+
+    0.7854
+
+angled(g)
+{Unrecognized function or variable 'angled'.
+} 
+angle(g)
+
+ans =
+
+    0.7854
+
+rad2deg(ans)
+
+ans =
+
+    45
+
+clc
+clear
+clc
+x = 56;
+y = 89;
+mult= x*y
+
+mult =
+
+        4984
+
+div= x/y
+
+div =
+
+    0.6292
+
+rdiv = x\y
+
+rdiv =
+
+    1.5893
+
+exp(1)
+
+ans =
+
+    2.7183
+
+z= exp(x/y)+ log(x)
+
+z =
+
+    5.9015
+
+p=100
+
+p =
+
+   100
+
+log10(p)
+
+ans =
+
+     2
+
+log5(p)
+{Unrecognized function or variable 'log5'.
+} 
+log2(p)
+
+ans =
+
+    6.6439
+
+home 
+s= 4 +3i
+
+s =
+
+   4.0000 + 3.0000i
+
+rad= abs(s)
+
+rad =
+
+     5
+
+theta = angle(s)
+
+theta =
+
+    0.6435
+
+rad2deg(theta)
+
+ans =
+
+   36.8699
+
+real(s)
+
+ans =
+
+     4
+
+s
+
+s =
+
+   4.0000 + 3.0000i
+
+imag(s)
+
+ans =
+
+     3
+
+d= s^2+3*s+9
+
+d =
+
+  28.0000 +33.0000i
+
+home
+t= 30
+
+t =
+
+    30
+
+sin(t)
+
+ans =
+
+   -0.9880
+
+sind(t)
+
+ans =
+
+    0.5000
+
+asind(0.5)
+
+ans =
+
+   30.0000
+
+round(4.56)
+
+ans =
+
+     5
+
+round(4.45)
+
+ans =
+
+     4
+
+pow(2,10)
+{Unrecognized function or variable 'pow'.
+} 
+pow2(2,10)
+
+ans =
+
+        2048
+
+clc
+power(2,10)
+
+ans =
+
+        1024
+
+2^8
+
+ans =
+
+   256
+
+clc
+power(2,10)
+
+ans =
+
+        1024
+
+2^8
+
+ans =
+
+   256
+
+clc
+clear
+clc
+a= [2 3 4 5 7 8 9]
+
+a =
+
+     2     3     4     5     7     8     9
+
+sum(a)
+
+ans =
+
+    38
+
+sum(a,:)
+{Unrecognized function or variable 'sum'.
+} 
+clc
+a = [1 2 3 ;4 5 6]
+
+a =
+
+     1     2     3
+     4     5     6
+
+b= sum(a,2)
+
+b =
+
+     6
+    15
+
+b= sum(a,1)
+
+b =
+
+     5     7     9
+
+b= sum(a,:)
+{Unrecognized function or variable 'sum'.
+} 
+b= sum(a,'all')
+
+b =
+
+    21
+
+clc
+a= [1 2 3]
+
+a =
+
+     1     2     3
+
+b=[5;6;8];
+a*b
+
+ans =
+
+    41
+
+a.*b
+
+ans =
+
+     5    10    15
+     6    12    18
+     8    16    24
+
+a = [0 1];
+b=rotz(90)*a
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check that the number of
+columns in the first matrix matches the number of rows in the second matrix. To
+perform elementwise multiplication, use '.*'.
+} 
+b=a*rotz(90)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+Incorrect dimensions for matrix multiplication. Check that the number of
+columns in the first matrix matches the number of rows in the second matrix.
+To perform elementwise multiplication, use '.*'.
+} 
+a = [0 1 0];
+b=a*rotz(90)
+
+b =
+
+     1     0     0
+
+b=a*rotz(180)
+
+b =
+
+     0    -1     0
+
+save ele
+load('ele.mat')
+clc
+name = '5.2'
+
+name =
+
+    '5.2'
+
+str2double(name)
+
+ans =
+
+    5.2000
+
+str2int(name)
+{Unrecognized function or variable 'str2int'.
+} 
+str2num(name)
+
+ans =
+
+    5.2000
+
+clc
+c= 'Redtron';
+s = "Redtron"
+
+s = 
+
+    "Redtron"
+
+c(3)
+
+ans =
+
+    'd'
+
+s(3)
+{Index exceeds the number of array elements (1).
+} 
+clc
+a= 4+5i;
+r = abs(a)
+
+r =
+
+    6.4031
+
+theta = angle(a)
+
+theta =
+
+    0.8961
+
+rad2deg(theta)
+
+ans =
+
+   51.3402
+
+sin(30)
+
+ans =
+
+   -0.9880
+
+sind(30)
+
+ans =
+
+    0.5000
+
+asind(0.5)
+
+ans =
+
+   30.0000
+
+clc
+a = [1 2 3 45]
+
+a =
+
+     1     2     3    45
+
+a = [1 ,20, 3 45]
+
+a =
+
+     1    20     3    45
+
+b= [ 1 5 6; 45 6 9]
+
+b =
+
+     1     5     6
+    45     6     9
+
+b(2,2)
+
+ans =
+
+     6
+
+2
+
+ans =
+
+     2
+
+b(2,3)
+
+ans =
+
+     9
+
+b(1,2:3)
+
+ans =
+
+     5     6
+
+clc
+b
+
+b =
+
+     1     5     6
+    45     6     9
+
+b(1:2,2:3)
+
+ans =
+
+     5     6
+     6     9
+
+g=b(1:2,2:3)
+
+g =
+
+     5     6
+     6     9
+
+clc
+b
+
+b =
+
+     1     5     6
+    45     6     9
+
+sum(b)
+
+ans =
+
+    46    11    15
+
+sum(b,2)
+
+ans =
+
+    12
+    60
+
+sum(b,'all')
+
+ans =
+
+    72
+
+b
+
+b =
+
+     1     5     6
+    45     6     9
+
+c= b(2,1:2)
+
+c =
+
+    45     6
+
+clc
+b
+
+b =
+
+     1     5     6
+    45     6     9
+
+d= [ b(2,1) b(2,2)]
+
+d =
+
+    45     6
+
+d= [ b(2,1) b(1,3)]
+
+d =
+
+    45     6
+
+clc
+a = [ 1 2 5; 4 8 9; 45 89 3]
+
+a =
+
+     1     2     5
+     4     8     9
+    45    89     3
+
+t=a'
+
+t =
+
+     1     4    45
+     2     8    89
+     5     9     3
+
+inv(a)
+
+ans =
+
+   70.6364  -39.9091    2.0000
+  -35.7273   20.1818   -1.0000
+    0.3636   -0.0909    0.0000
+
+a*inv(a)
+
+ans =
+
+    1.0000   -0.0000    0.0000
+    0.0000    1.0000    0.0000
+    0.0000   -0.0000    1.0000
+
+det(a)
+
+ans =
+
+  -11.0000
+
+clc
+a
+
+a =
+
+     1     2     5
+     4     8     9
+    45    89     3
+
+mean(a)
+
+ans =
+
+   16.6667   33.0000    5.6667
+
+mean(a,'all')
+
+ans =
+
+   18.4444
+
+std(a)
+
+ans =
+
+   24.5832   48.5901    3.0551
+
+std(a,'all')
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('var', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\datafun\var.m', 139)" style="font-weight:bold">var</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\datafun\var.m',139,0)">line 139</a>)
+Invalid option. Option must be 'omitnan' or 'includenan'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('std', 'C:\Program Files\Polyspace\R2020a\toolbox\matlab\datafun\std.m', 59)" style="font-weight:bold">std</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2020a\toolbox\matlab\datafun\std.m',59,0)">line 59</a>)
+y = sqrt(var(varargin{:}));
+} 
+clc
+a = [ 45 45 8 2 4  21 4 8 23 5  5 2 532 6 5 21 5]
+
+a =
+
+  Columns 1 through 13
+
+    45    45     8     2     4    21     4     8    23     5     5     2   532
+
+  Columns 14 through 17
+
+     6     5    21     5
+
+mean(a)
+
+ans =
+
+   43.5882
+
+std(a)
+
+ans =
+
+  126.6121
+
+sum(a)/length(a)
+
+ans =
+
+   43.5882
+
+a= [ 1 2 3; 4 5 6]
+
+a =
+
+     1     2     3
+     4     5     6
+
+clc
+a= [ 1 2 1 9]
+
+a =
+
+     1     2     1     9
+
+sum(a)
+
+ans =
+
+    13
+
+length(a)
+
+ans =
+
+     4
+
+roots(a)
+
+ans =
+
+  -2.7946 + 0.0000i
+   0.3973 + 1.7501i
+   0.3973 - 1.7501i
+
+clc
+a= [1 0 -4]
+
+a =
+
+     1     0    -4
+
+roots(a)
+
+ans =
+
+    2.0000
+   -2.0000
+
+clc
+eq= [1 1 3 9;2 -3 1 1;1 -1 -1 -5]
+
+eq =
+
+     1     1     3     9
+     2    -3     1     1
+     1    -1    -1    -5
+
+rref(eq)
+
+ans =
+
+    1.0000         0         0   -1.6000
+         0    1.0000         0   -0.2000
+         0         0    1.0000    3.6000
+
+% Ax=B
+A= [1 1 3;2 -3 1; 1 -1 -1]
+
+A =
+
+     1     1     3
+     2    -3     1
+     1    -1    -1
+
+B=[9;1;-5]
+
+B =
+
+     9
+     1
+    -5
+
+%x= B/A = A\B
+5/2
+
+ans =
+
+    2.5000
+
+5\2
+
+ans =
+
+    0.4000
+
+A\B
+
+ans =
+
+   -1.6000
+   -0.2000
+    3.6000
+
+clc
+A = [0 2 0];
+n=A*rotz(45)
+
+n =
+
+    1.4142    1.4142         0
+
+n=A*rotz(90)
+
+n =
+
+     2     0     0
+
+eye(5)
+
+ans =
+
+     1     0     0     0     0
+     0     1     0     0     0
+     0     0     1     0     0
+     0     0     0     1     0
+     0     0     0     0     1
+
+ones(3)
+
+ans =
+
+     1     1     1
+     1     1     1
+     1     1     1
+
+ones(3,2)
+
+ans =
+
+     1     1
+     1     1
+     1     1
+
+ones(3,2.5)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ones')" style="font-weight:bold">ones</a>
+Size inputs must be integers.
+} 
+% kbkfdgjkfdjkdf njknfd
+
+clear
+clc
+a= 4+5i
+
+a =
+
+   4.0000 + 5.0000i
+
+r = abs(a)
+
+r =
+
+    6.4031
+
+theta = angle(a)
+
+theta =
+
+    0.8961
+
+sin(30)
+
+ans =
+
+   -0.9880
+
+0.8961
+
+ans =
+
+    0.8961
+
+rad2deg(theta)
+
+ans =
+
+   51.3402
+
+sind(30)
+
+ans =
+
+    0.5000
+
+asind(0.5)
+
+ans =
+
+   30.0000
+
+exp(5)
+
+ans =
+
+  148.4132
+
+log10(100)
+
+ans =
+
+     2
+
+log2(100)
+
+ans =
+
+    6.6439
+
+clc
+a = [ 1 ,2 3]
+
+a =
+
+     1     2     3
+
+a = [ 1 ,2 3 ; 4 9 8]
+
+a =
+
+     1     2     3
+     4     9     8
+
+a(2)
+
+ans =
+
+     4
+
+a(2,2)
+
+ans =
+
+     9
+
+a(2,3)
+
+ans =
+
+     8
+
+clc
+a
+
+a =
+
+     1     2     3
+     4     9     8
+
+d= a(1:2 , 2:3)
+
+d =
+
+     2     3
+     9     8
+
+d= a(1:2 , 3)
+
+d =
+
+     3
+     8
+
+z= [ a(2,1)  a(1,3)
+]
+
+z =
+
+     4     3
+
+clc
+a = [ 1 2 4 98 46 5 49 84 4 64  8 85 ]
+
+a =
+
+     1     2     4    98    46     5    49    84     4    64     8    85
+
+length(a)
+
+ans =
+
+    12
+
+sum(a)
+
+ans =
+
+   450
+
+mean(a)
+
+ans =
+
+   37.5000
+
+sum(a)/length(a)
+
+ans =
+
+   37.5000
+
+std(a)
+
+ans =
+
+   37.8382
+
+clc
+a = [ 1 2 3 4 ; 4 5 6 7]
+
+a =
+
+     1     2     3     4
+     4     5     6     7
+
+sum(a)
+
+ans =
+
+     5     7     9    11
+
+sum(a,2)
+
+ans =
+
+    10
+    22
+
+sum(a,'all')
+
+ans =
+
+    32
+
+sum(a,1)
+
+ans =
+
+     5     7     9    11
+
+clc
+a= [ 1 2 3;4 5 6; 7 8 9]
+
+a =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+a'
+
+ans =
+
+     1     4     7
+     2     5     8
+     3     6     9
+
+inv(a)
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.202823e-18.] 
+[] 
+
+ans =
+
+   1.0e+16 *
+
+    0.3153   -0.6305    0.3153
+   -0.6305    1.2610   -0.6305
+    0.3153   -0.6305    0.3153
+
+a*inv(a)
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.202823e-18.] 
+[] 
+
+ans =
+
+     0     0     0
+    -4     0     0
+    -4     0     0
+
+clc
+a= [ 1 2 3;4 5 6;7 8 9]
+
+a =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+inv(a)
+[Warning: Matrix is close to singular or badly scaled. Results may be
+inaccurate. RCOND =  2.202823e-18.] 
+[] 
+
+ans =
+
+   1.0e+16 *
+
+    0.3153   -0.6305    0.3153
+   -0.6305    1.2610   -0.6305
+    0.3153   -0.6305    0.3153
+
+a= [ 1 2 3;4 0 6;7 1 9]
+
+a =
+
+     1     2     3
+     4     0     6
+     7     1     9
+
+inv(a)
+
+ans =
+
+   -0.3333   -0.8333    0.6667
+    0.3333   -0.6667    0.3333
+    0.2222    0.7222   -0.4444
+
+a*inv(a)
+
+ans =
+
+    1.0000   -0.0000         0
+         0    1.0000         0
+   -0.0000         0    1.0000
+
+% a*(1/a)
+clc
+det(a)
+
+ans =
+
+   18.0000
+
+a
+
+a =
+
+     1     2     3
+     4     0     6
+     7     1     9
+
+s= [1 2 9 -4]
+
+s =
+
+     1     2     9    -4
+
+roots(s)
+
+ans =
+
+  -1.2007 + 2.9193i
+  -1.2007 - 2.9193i
+   0.4014 + 0.0000i
+
+s= [ 1 0 -4]
+
+s =
+
+     1     0    -4
+
+roots(s)
+
+ans =
+
+    2.0000
+   -2.0000
+
+clc
+eq = [1 ,1 3 9;2 -3 1 1; 1 -1 -1 -5]
+
+eq =
+
+     1     1     3     9
+     2    -3     1     1
+     1    -1    -1    -5
+
+rref(eq)
+
+ans =
+
+    1.0000         0         0   -1.6000
+         0    1.0000         0   -0.2000
+         0         0    1.0000    3.6000
+
+% Ax = B => x B/A => x= A\B
+5/2
+
+ans =
+
+    2.5000
+
+5\2
+
+ans =
+
+    0.4000
+
+clc
+% Ax = B => x B/A => x= A\B
+A= [ 1 1 3;2 -3 1;1 -1 -1]
+
+A =
+
+     1     1     3
+     2    -3     1
+     1    -1    -1
+
+B = [9;1;-5]
+
+B =
+
+     9
+     1
+    -5
+
+x=A\B
+
+x =
+
+   -1.6000
+   -0.2000
+    3.6000
+
+1/0
+
+ans =
+
+   Inf
+
+clc
+a = [0 5 0]
+
+a =
+
+     0     5     0
+
+final = a*rotz(45)
+
+final =
+
+    3.5355    3.5355         0
+
+final = a*rotz(90)
+
+final =
+
+     5     0     0
+
+eye(5)
+
+ans =
+
+     1     0     0     0     0
+     0     1     0     0     0
+     0     0     1     0     0
+     0     0     0     1     0
+     0     0     0     0     1
+
+ones(3)
+
+ans =
+
+     1     1     1
+     1     1     1
+     1     1     1
+
+ones(5,3)
+
+ans =
+
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+     1     1     1
+
+zeros(2,3)
+
+ans =
+
+     0     0     0
+     0     0     0
+
+nan(3,2)
+
+ans =
+
+   NaN   NaN
+   NaN   NaN
+   NaN   NaN
+
+dnan(3,2)
+{Unrecognized function or variable 'dnan'.
+} 
+d=nan(3,2)
+
+d =
+
+   NaN   NaN
+   NaN   NaN
+   NaN   NaN
+
+d(1,1)=2
+
+d =
+
+     2   NaN
+   NaN   NaN
+   NaN   NaN
+
+A = [ 2 1 1 0;0 1 -1 0; 1 1 0 0] 
+
+A =
+
+     2     1     1     0
+     0     1    -1     0
+     1     1     0     0
+
+rref(A)
+
+ans =
+
+     1     0     1     0
+     0     1    -1     0
+     0     0     0     0
+
+clc
+A= [2 1 1;0 1 -1 ; 1 1 0]
+
+A =
+
+     2     1     1
+     0     1    -1
+     1     1     0
+
+B=[0; 0 ;0]
+
+B =
+
+     0
+     0
+     0
+
+x=A\B
+[Warning: Matrix is singular to working precision.] 
+[] 
+
+x =
+
+   NaN
+   NaN
+   NaN
+
+clc
+a= [ 1 2 3;-1 5 8]
+
+a =
+
+     1     2     3
+    -1     5     8
+
+rref(a)
+
+ans =
+
+    1.0000         0   -0.1429
+         0    1.0000    1.5714
+
+a(1:2)
+
+ans =
+
+     1    -1
+
+a(1:2,2:3)
+
+ans =
+
+     2     3
+     5     8
+
+clc
+a= [ 1 2 3;4 5 6; 7 8 9]
+
+a =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+a(1:3)
+
+ans =
+
+     1     4     7
+
+d= 1:10
+
+d =
+
+     1     2     3     4     5     6     7     8     9    10
+
+d=1:3
+
+d =
+
+     1     2     3
+
+clc
+A= [ 1 2 3;1 4 7; 1 5 9]
+
+A =
+
+     1     2     3
+     1     4     7
+     1     5     9
+

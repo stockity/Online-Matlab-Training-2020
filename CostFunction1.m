@@ -1,4 +1,4 @@
-function score = CostFunction1(t)
+function score = CostFunction(t)
 
 %  [x y] = meshgrid(-pi:.1:pi);
 
